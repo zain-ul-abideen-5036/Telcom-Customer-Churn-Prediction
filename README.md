@@ -57,10 +57,10 @@ pip install -r requirements.txt
 ## Usage
 1. Open TelcoCustomerChurn.ipynb in Jupyter Notebook
 2. Run cells sequentially to:
-  - Preprocess data
-  - Train machine learning models
-  - Evaluate model performance
-  - Generate visualizations
+   - Preprocess data
+   - Train machine learning models
+   - Evaluate model performance
+   - Generate visualizations
 ---
 
 ## Key Results
