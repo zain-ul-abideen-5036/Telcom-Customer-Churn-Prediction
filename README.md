@@ -13,11 +13,7 @@ A machine learning project to predict customer churn using telco customer data.
 - [Usage](#usage)
 - [Key Results](#key-results)
 - [Model Evaluation](#model-evaluation)
-- [Feature Importance](#feature-importance)
 - [Repository Structure](#repository-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Project Overview
 This project analyzes customer churn patterns in telecommunications data using machine learning techniques. The workflow includes:
@@ -39,4 +35,46 @@ The dataset used is the [Telco Customer Churn Dataset](https://www.kaggle.com/bl
 ## Installation
 1. Clone repository:
 ```bash
-git clone https://github.com/<your-username>/telco-customer-churn-prediction.git
+git clone https://github.com/zain-ul-abideen-5036/Telcom-Customer-Churn-Prediction.git
+```
+2. Install requirements:
+```bash
+pip install -r requirements.txt
+```
+
+**Required libraries:**
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
+
+## Usage
+1. Open TelcoCustomerChurn.ipynb in Jupyter Notebook
+2. Run cells sequentially to:
+ - Preprocess data
+ - Train machine learning models
+ - Evaluate model performance
+ - Generate visualizations
+
+## Key Results
+- Random Forest achieved 80% accuracy
+- Decision Tree achieved 77% accuracy
+- Key churn indicators: tenure, monthly charges, and contract type
+
+## Model Evaluation
+**Performance Metrics**
+
+| Model |	Accuracy	| Precision	| Recall | F1 Score |
+|-------|-----------|-----------|--------|----------|
+| **Random Forest** |	0.80 |	0.70 |	0.45 | 0.55 |
+| **Decision Tree**	| 0.77 |	0.58 |	0.48 | 0.53 |
+
+## Repository Structure
+```
+telco-customer-churn-prediction/
+│ WA_Fn-UseC_-Telco-Customer-Churn.csv
+│ TelcoCustomerChurn.ipynb
+├── README.md
+└── requirements.txt
+```
