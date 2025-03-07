@@ -83,7 +83,7 @@ pip install -r requirements.txt
 telco-customer-churn-prediction/
 │ WA_Fn-UseC_-Telco-Customer-Churn.csv
 │ TelcoCustomerChurn.ipynb
-├── README.md
-└── requirements.txt
+├ README.md
+└ requirements.txt
 ```
 ---
