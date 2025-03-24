@@ -5,6 +5,7 @@
 ![Machine Learning](https://img.shields.io/badge/Machine-Learning-brightgreen)
 
 A machine learning project to predict customer churn using telco customer data.
+
 ---
 
 ## Table of Contents
